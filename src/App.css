@@ -1,0 +1,21 @@
+*{
+  font-family: Arial;
+}
+
+p{
+  display: inline;
+}
+
+.crossed{
+  text-decoration: line-through;
+}
+
+.addTodo{
+  margin-bottom: 30px;
+}
+
+.todo{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
