@@ -16,7 +16,7 @@ const App = () => {
         "https://api.elchocrud.pro/api/v1/28155e5f6eeaed713f32235e02556971/todo"
       )
       .then((res) => {
-        setTodos(res.data);
+        setTodos(res.data.reverse());
       })
       .then(() => {
         setIsLoading(false);
